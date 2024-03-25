@@ -1,0 +1,57 @@
+.section-3 {
+    overflow-x: hidden;
+   }
+   /* Adjust styles for section 3 */
+   .section-3 .section-heading {
+       color: rgb(0, 0, 0);
+       margin-top: 50px;
+       margin-bottom: 50px;
+       font-size: 40px;
+       font-weight: bold;
+   }
+
+   .section-3 {
+    margin-left: 50px;
+    margin-right: 50px;
+   }
+    
+   .section-3 h2 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+   }
+
+   .section-3 .card {
+       background-color: #f0f0f0;
+       height: 300px;
+       border-radius: 20px;
+       transition: transform 0.3s;
+   }
+   .section-3 .card:hover {
+       transform: scale(1.05); /* Scale up the card slightly */
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+   }
+   
+   .card-img-top {
+       height: 150px;
+       width: 150px;
+       align-self: center;
+       margin-top: 15px;
+   }
+   
+   /* Additional CSS for the button */
+   .btn-more-services {
+       background-color: #28a745; /* Blue background */
+       color: white; /* White text */
+       border: none; /* No border */
+       padding: 10px 20px; /* Padding */
+       border-radius: 20px; /* Rounded corners */
+       font-size: 16px; /* Font size */
+       cursor: pointer; /* Cursor style */
+       transition: background-color 0.3s; /* Smooth transition */
+   }
+   
+   .btn-more-services:hover {
+       background-color: #218838; /* Darker blue on hover */
+   }
+
+
+   
